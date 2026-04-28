@@ -1,0 +1,12 @@
+{
+  "project_name": "Azure-Ready Supply Chain Forecasting & Inventory Optimization Control Tower",
+  "random_seed": 42,
+  "history_weeks": 78,
+  "forecast_horizon_weeks": 8,
+  "n_skus": 48,
+  "n_regions": 5,
+  "n_warehouses": 4,
+  "database_name": "supply_chain_control_tower.db",
+  "default_service_level": 0.95,
+  "currency": "USD"
+}

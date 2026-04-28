@@ -1,0 +1,44 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables (secrets)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Generated data (reproducible via pipeline)
+data/raw/
+data/processed/
+data/powerbi_outputs/
+
+# Database (generated)
+*.db
+*.sqlite
+
+# Trained models
+models/
+
+# MLflow runs
+mlruns/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
